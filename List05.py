@@ -7,4 +7,7 @@ def main(list1,i):
     Returns:
         list: return answer
     """
-    return
+    return list1[i]
+list1=['1','2','3','4','5','6']
+i=3
+print(main(list1,i))
