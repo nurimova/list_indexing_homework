@@ -6,4 +6,12 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    while i<len(list1):
+        if list1[0]>list1[-1]:
+            return list1[0]
+        else:
+            return list1[-1]
+        i+=1
+list1=[2,0,0,0,3]
+print(main(list1))

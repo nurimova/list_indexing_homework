@@ -7,11 +7,10 @@ def main(list1):
         list: return answer
     """
     i=0
-    while i<5:
-        if '1' in list1:
-            indx=list1.index(1)
-            list1[indx]='True'
+    while i<len(list1):
+        if list1[i]==1:
+            list1[i]=True
         i+=1
-        return list2 
-list1=['1','0','0','1']
+    return list1
+list1=[1,0,0,0,1]
 print(main(list1))
